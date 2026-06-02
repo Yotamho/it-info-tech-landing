@@ -4,20 +4,20 @@
  */
 
 export const siteConfig = {
-  name: "Astro Validation Landing",
-  title: "Astro Validation Landing - Validate Your Product Idea",
+  name: "IT INFO TECH",
+  title: "IT INFO TECH",
   description:
-    "Build beautiful, high-converting landing pages to test your product idea, gather early interest, and validate market demand—without writing code.",
+    "",
   image: "/og-image.png",
   quickLinks: [
-    { label: "Features", href: "#features" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "FAQ", href: "#faq" }
-  ],
+    // { label: "Features", href: "#features" },
+    // { label: "How It Works", href: "#how-it-works" },
+    // { label: "FAQ", href: "#faq" }
+  ] as { label: string, href: string }[],
   legalLinks: [
-    { label: "Privacy Policy", href: "/privacy" },
-    { label: "Terms of Service", href: "/terms" },
-    { label: "Contact", href: "mailto:hello@astro-validation-landing.com" }
+    { label: "מדיניות הפרטיות", href: "/privacy" },
+    // { label: "Terms of Service", href: "/terms" },
+    // { label: "Contact", href: "mailto:hello@astro-validation-landing.com" }
   ]
 };
 
@@ -25,22 +25,22 @@ export const header = {
   name: siteConfig.name,
   navLinks: siteConfig.quickLinks,
   cta: {
-    label: "Get Early Access",
+    label: "צור קשר",
     href: "#cta"
   }
 };
 
 export const hero = {
   headline:
-    "Stop Guessing, Start Validating. Launch Your Idea with Confidence.",
+    "פתרונות IT, תשתיות ואבטחת מידע לארגונים",
   subheadline:
-    "Quickly build beautiful, high-converting landing pages to test your product idea, gather early interest, and validate market demand—without writing a single line of custom code. Get started today with Astro Validation Landing.",
+    "ליווי מקצועי בתכנון, הקמה ושדרוג של מערכות מחשוב, תשתיות ואבטחת מידע — משלב האפיון ועד היישום בפועל.\n\n\nניסיון רב שנים בייעוץ אסטרטגי וארגוני, הובלת פרויקטים מורכבים ושילוב פתרונות ענן, אוטומציה ו־AI בסביבות עבודה קיימות.",
   primaryCta: {
-    label: "Get Early Access Now",
+    label: "צרו קשר",
     href: "#cta"
   },
   secondaryCta: {
-    label: "Learn More",
+    label: "עוד עלינו",
     href: "#features"
   },
   image: {
@@ -62,72 +62,92 @@ export const solution = {
 };
 
 export const features = {
-  heading: "Why Astro Validation Landing is Your Secret Weapon",
+  heading: "השירותים שלנו",
   description:
-    "Everything you need to validate your product idea and gather market feedback.",
+    "פתרונות IT וייעוץ מקצועי בכל תחומי המחשוב ואבטחת המידע",
   items: [
     {
-      icon: "⚡",
-      headline: "Blazing Fast Performance",
+      icon: "🛡️",
+      headline: "אבטחת מידע ותשתיות",
       description:
-        "Lighthouse 100 scores. Built with Astro for instant page loads that keep visitors engaged and boost conversions."
+        "ייעוץ והקמה של מערכות IT ואבטחת מידע בהתאמה לצורכי הארגון, תוך דגש על יציבות, אבטחה ויכולת צמיחה."
     },
     {
-      icon: "✨",
-      headline: "Stunning, Conversion-Focused Designs",
+      icon: "☁️",
+      headline: "פתרונות ענן",
       description:
-        "Pre-built, responsive layouts designed by conversion experts. Every pixel serves a purpose."
+        "ליווי פרויקטים של מעבר לענן או הקמת סביבות ענן חדשות, כולל תכנון ארכיטקטורה והתאמה לתשתיות קיימות."
     },
     {
-      icon: "🎨",
-      headline: "Effortless Customization",
+      icon: "🧭",
+      headline: "ייעוץ אסטרטגי להנהלה",
       description:
-        "Swap colors, fonts, and content with simple configuration. No coding required for basic changes."
+        "סיוע להנהלות בקבלת החלטות בתחום המחשוב ואבטחת המידע, תוך ראייה מערכתית והתאמה ליעדי הארגון."
     },
     {
-      icon: "📊",
-      headline: "Integrated Analytics & Tracking",
+      icon: "📄",
+      headline: "ליווי מכרזים ובחירת ספקים",
       description:
-        "Built-in hooks for Google Analytics, Segment, and custom tracking. Measure what matters."
+        "כתיבה וליווי של מסמכי RFP/RFI, בחינת פתרונות טכנולוגיים, הערכת חלופות וסיוע בבחירת ספקים מתאימים."
     },
     {
-      icon: "🔒",
-      headline: "Built for Security & Privacy",
+      icon: "🏢",
+      headline: "יישום מערכות ליבה",
       description:
-        "GDPR-compliant, no third-party trackers by default. Your visitors' data is safe."
+        "ייעוץ וליווי בהטמעת מערכות בתחומי שירות, שיווק, תמיכה, ביטוח ופיננסים, בהתאמה לתהליכי העבודה בארגון."
     },
     {
-      icon: "📱",
-      headline: "Mobile-First Design",
+      icon: "🤖",
+      headline: "אוטומציה, RPA ו-AI",
       description:
-        "Perfectly optimized for every device. Your landing page looks incredible on phones, tablets, and desktops."
+        "שילוב כלי RPA ופתרונות AI במערכות קיימות לצורך ייעול תהליכים, חיסכון בזמן ושיפור תפעולי."
     }
   ]
 };
 
 export const howItWorks = {
-  heading: "Launch Your Idea in 3 Simple Steps",
+  heading: "מקצוענות רבת שנים בתחום הIT",
   description:
-    "From concept to live landing page validation in minutes, not weeks.",
+    "",
   items: [
     {
       number: "1",
-      headline: "Choose Your Template",
+      headline: "ייעוץ ארגוני בהקמת מערכות תשתיות מחשוב, IT, ואבטחת מידע",
       description:
-        "Select a pre-designed template or start from scratch. Customize colors, fonts, and layout to match your brand."
+        ""
     },
     {
       number: "2",
-      headline: "Customize Your Message",
+      headline: "ייעוץ אסטרטגי להנהלה בהקמת מערכי מחשוב ואבטחת מידע",
       description:
-        "Write your headline, add your value proposition, and upload your image. All without touching a line of code."
+        ""
     },
     {
       number: "3",
-      headline: "Go Live & Gather Insights",
+      headline: "ייעוץ ארגוני בתחום יישום מערכות ליבה בתחומים של שיווק, שירות, תמיכה, ביטוח ופיננסים",
       description:
-        "Deploy in seconds and start collecting emails and feedback. Access detailed analytics to understand your audience."
-    }
+        ""
+    },
+    {
+      number: "4",
+      headline: "עריכה וליווי בבחירת פתרונות ספקים, סיוע בכתיבת RFP/I - הערכת אלטרנטיבות ומסמך בחירה",
+      description: ""
+    },
+    {
+      number: "5",
+      headline: "ייזום, גיבוש וליווי פרויקטים בתחום, תוך עמידה בחוזרים הנדרשים ברגולציה, IT ואבטחת מידע",
+      description: ""
+    },
+    {
+      number: "6",
+      headline: "יישום וליווי פרויקטים להעברה / הקמה בענן",
+      description: ""
+    },
+    {
+      number: "7",
+      headline: "שילוב RPA וכלי AI במערכות קיימות",
+      description: ""
+    },
   ]
 };
 
@@ -164,14 +184,14 @@ export const testimonials = {
 };
 
 export const cta = {
-  headline: "Ready to Validate Your Next Big Idea?",
+  headline: "צור קשר לקבלת פרטים נוספים",
   description:
-    "Stop guessing and start validating today. Build your high-converting validation landing page in minutes, not weeks.",
+    "",
   button: {
-    label: "Start Validating Today!",
+    label: "שלח",
     href: "#email-signup"
   },
-  disclaimer: "No spam, ever. Unsubscribe anytime."
+  disclaimer: ""
 };
 
 export const faq = {
@@ -213,7 +233,7 @@ export const footer = {
       links: siteConfig.quickLinks
     },
     legal: {
-      title: "Legal",
+      title: "משפטי",
       links: siteConfig.legalLinks
     }
   },
