@@ -64,7 +64,7 @@ export const solution = {
 export const features = {
   heading: "השירותים שלנו",
   description:
-    "ייעוץ מקצועי בכל תחומי המחשוב, הIT ואבטחת המידע",
+    "ייעוץ מקצועי בכל תחומי המחשוב, הIT, אבטחת המידע וAI",
   items: [
     {
       icon: "🛡️",
