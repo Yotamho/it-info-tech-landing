@@ -1,0 +1,16 @@
+---
+import { Content as PrivacyPolicyContent } from "../content/privacy-policy.md";
+import Layout from "@/layouts/Layout.astro";
+import { Button } from "@/components/starwind/button"
+---
+<Layout>
+  <div class="m-6">
+    <Button variant="outline" href="/" size="lg">
+      בחזרה לדף הבית
+    </Button>
+  </div>
+
+  <div class="max-w-5xl px-6 prose">
+    <PrivacyPolicyContent />
+  </div>
+</Layout>
