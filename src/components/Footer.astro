@@ -38,14 +38,14 @@ const { quickLinks, legal } = sections;
 			</div> -->
 
 			<!-- Legal & Social Section -->
-			<div class="flex flex-col gap-4">
+			<div class="flex flex-col gap-4 prose">
 				<h3 class="font-semibold text-foreground">{legal.title}</h3>
 				<nav class="flex flex-col gap-2">
 					{
 						legal.links.map((link) => (
 							<a
 								href={link.href}
-								class="text-sm text-muted-foreground hover:text-foreground transition-colors"
+								class="text-sm text-blue-500"
 							>
 								{link.label}
 							</a>
